@@ -28,10 +28,6 @@ media/
 .env
 .env.*
 
-# Static files (Django collects these)
-staticfiles/
-static/
-
 # Local development settings
 local_settings.py
 
