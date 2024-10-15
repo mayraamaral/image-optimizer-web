@@ -21,11 +21,13 @@
 
             <div>
                 <label class="block text-gray-600 mb-2">Quality (0-100):</label>
+                {{ form.quality.errors }}
                 {{ form.quality }}
             </div>
 
             <div>
                 <label class="block text-gray-600 mb-2">Scale (0.1 a 1.0):</label>
+                {{ form.scale.errors }}
                 {{ form.scale }}
             </div>
 
