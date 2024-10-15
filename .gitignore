@@ -1,0 +1,49 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# Virtualenv
+*.venv/
+*.env/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+db.sqlite3
+/db.sqlite3-journal
+media/
+
+# Ignore .env files
+.env
+.env.*
+
+# Static files (Django collects these)
+staticfiles/
+static/
+
+# Local development settings
+local_settings.py
+
+# Pytest
+.pytest_cache/
+.tox/
+
+# macOS
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Heroku
+.heroku/
